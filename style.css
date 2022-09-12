@@ -2,3 +2,39 @@
     margin: 0;
     padding: 0;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    background-color: bisque;
+}
+main{
+    min-height: 80vh;
+}
+body{
+    position: relative;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+}  
+
+
+figure{
+    width: 50vw;
+    height: 50vh;   
+
+    
+    
+
+}
+footer{
+    height: 10vh;
+    background: bisque;
+    position: absolute;
+    bottom: 0;
+}
